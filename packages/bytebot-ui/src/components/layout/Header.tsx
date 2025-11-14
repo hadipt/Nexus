@@ -77,15 +77,6 @@ export function Header() {
             <HugeiconsIcon icon={ComputerIcon} className="h-4 w-4" />
             <span className="text-sm">Desktop</span>
           </Link>
-          <Link
-            href="https://docs.bytebot.ai/quickstart"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={getLinkClasses("https://docs.bytebot.ai")}
-          >
-            <HugeiconsIcon icon={DocumentCodeIcon} className="h-4 w-4" />
-            <span className="text-sm">Docs</span>
-          </Link>
         </div>
       </div>
       <div className="flex items-center gap-3"></div>
